@@ -1,0 +1,52 @@
+#
+# Arceon
+# - Patreon: https://www.patreon.com/arcaniax
+# - Wiki & Documentation: https://github.com/Brennian/Arceon-1.14/wiki
+# - Discord Support: https://discord.gg/jpRVrjd
+#
+
+# Can the plugin collect anonymous usage metrics?
+# Arceon metrics page: https://bstats.org/plugin/bukkit/Arceon/6481
+#
+# Note: the server must be restarted if you change this value.
+# Find global bStats settings in: /plugins/bStats/config.yml
+bstats-metrics: true
+
+# The particle type used to outline selections (such as the Loft tool).
+# Available particles can be found at: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# Default: FLAME
+selection-outline-particle: FLAME
+
+# Mask toggles.
+# All masks are enabled by default.
+masks:
+  above-mask: true
+  ambient-mask: true
+  angle-mask: true
+  below-mask: true
+  cell-mask: true
+  color-mask: true
+  crack-mask: true
+  electric-mask: true
+  fractal-mask: true
+  noise-mask: true
+  proximity-3D-mask: true
+  proximity-mask: true
+  turbulence-mask: true
+  type-mask: true
+  voronoi-mask: true
+  y-gradient-mask: true
+  y-mask: true
+
+# Pattern toggles.
+# All patterns are enabled by default.
+patterns:
+  blend-pattern: true
+  cell-pattern: true
+  color-pattern: true
+  double-plant-pattern: true
+  electric-pattern: true
+  fractal-pattern: true
+  turbulence-pattern: true
+  type-pattern: true
+  voronoi-pattern: true
