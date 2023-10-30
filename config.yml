@@ -1,8 +1,8 @@
 #
 # Arceon
 # - Patreon: https://www.patreon.com/arcaniax
-# - Wiki & Documentation: https://github.com/Brennian/Arceon-1.14/wiki
-# - Discord Support: https://discord.gg/jpRVrjd
+# - Wiki & Documentation: http://wiki-1-14.arcaniax.net/
+# - Discord Support: https://discord.arcaniax.net/
 #
 
 # Can the plugin collect anonymous usage metrics?
@@ -50,3 +50,8 @@ patterns:
   turbulence-pattern: true
   type-pattern: true
   voronoi-pattern: true
+
+# Tool toggles.
+# All tools are enabled by default.
+tools:
+  text-tool: true
