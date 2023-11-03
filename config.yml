@@ -12,10 +12,31 @@
 # Find global bStats settings in: /plugins/bStats/config.yml
 bstats-metrics: true
 
+# Command toggles.
+# If there's a conflict with any of the built-in informational commands, disable them here.
+# Note: the server must be restarted in order for updated command settings to take effect.
+# All commands are enabled by default.
+commands:
+  coffee: true
+  suggest: true
+  wiki: true
+
 # The particle type used to outline selections (such as the Loft tool).
 # Available particles can be found at: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
 # Default: FLAME
 selection-outline-particle: FLAME
+
+# Loft tool settings.
+loft:
+  # Limits the maximum amount of frames per loft.
+  # Default: 50
+  max-frames: 50
+  # Limits the maximum amount of points per frame.
+  # Default: 50
+  max-points: 50
+  # If enabled, players with 'arceon.bypass.loft' will be allowed to exceed the limits above.
+  # Default: true
+  enable-bypass: true
 
 # Mask toggles.
 # All masks are enabled by default.
