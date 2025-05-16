@@ -1,7 +1,7 @@
 #
 # Arceon
 # - Patreon: https://www.patreon.com/arcaniax
-# - Wiki & Documentation: http://wiki-1-14.arcaniax.net/
+# - Wiki & Documentation: https://arceon.gitbook.io/arceon-wiki
 # - Discord Support: https://discord.arcaniax.net/
 #
 
@@ -38,6 +38,27 @@ loft:
   # Default: true
   enable-bypass: true
 
+
+# Asset Placer settings:
+asset-placer:
+  # Default: true
+  enable-preview: true
+  # Range the asset can be placed and previewed at.
+  # Default: 200
+  range: 200
+  # Smooths out the movement between previews but makes it less snappy and more delayed.
+  # Default: false
+  smooth-transitions: false
+  # Limits the maximum amount of blocks in an Asset. (only checks on creation)
+  # Default: 500000
+  max-blocks: 500000
+  # Delay between updates on the previews in ticks.
+  # Default: 5
+  preview-update-delay: 5
+  # Delay between clean cycles in ticks to clean up unused displays left over from server crashes & errors.
+  # Default: 200
+  preview-clean-delay: 200
+
 # Mask toggles.
 # All masks are enabled by default.
 masks:
@@ -71,6 +92,7 @@ patterns:
   turbulence-pattern: true
   type-pattern: true
   voronoi-pattern: true
+  invert-pattern: true
 
 # Tool toggles.
 # All tools are enabled by default.
