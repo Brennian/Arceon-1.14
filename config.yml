@@ -37,6 +37,9 @@ loft:
   # If enabled, players with 'arceon.bypass.loft' will be allowed to exceed the limits above.
   # Default: true
   enable-bypass: true
+  # If enabled, paper without a display name using "loft" in the name won't work.
+  # Default: false
+  force-item-name: false
 
 
 # Asset Placer settings:
